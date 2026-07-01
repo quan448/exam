@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Responsive Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">TECHBLOG</div>
+            
+            <!-- Extra 3: Hamburger Menu Button -->
+            <button class="hamburger-btn" aria-label="Toggle menu" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#home">Home</a>
+                <a href="#articles">Articles</a>
+                <a href="#contact">Contact</a>
+                <!-- Extra 1: Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">🌓 Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <h1>WELCOME TO TECHBLOG</h1>
+                <p>Discover the latest in AI, development, and design. Handcrafted layout coded entirely from scratch.</p>
+                <!-- Extra 4: Live Search Input Box -->
+                <div class="search-container">
+                    <input type="text" id="site-search" placeholder="Search articles instantly...">
+                </div>
+            </div>
+            <div class="hero-image-placeholder">
+                <div class="placeholder-x">X</div>
+                <p>[ IMAGE PLACEHOLDER ]</p>
+            </div>
+        </section>
+
+        <!-- ARTICLES GRID SECTION -->
+        <section class="articles-section" id="articles">
+            <h2>LATEST ARTICLES</h2>
+            
+            <div class="articles-grid">
+                <!-- Extra 2: Product/Article Cards with Lift Effect -->
+                <article class="product-card">
+                    <div class="card-image"><span class="placeholder-x">X</span></div>
+                    <div class="card-content">
+                        <h3>AI in 2026</h3>
+                        <p>Intro to generative AI tools and workflows reshaping modern interfaces.</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="card-image"><span class="placeholder-x">X</span></div>
+                    <div class="card-content">
+                        <h3>UI/UX Trends</h3>
+                        <p>Modern layouts shifting back to content-first, semantic structures.</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="card-image"><span class="placeholder-x">X</span></div>
+                    <div class="card-content">
+                        <h3>Git Guide</h3>
+                        <p>Mastering version control, branch deployment pipelines, and remote hosting.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>&copy; 2026 TechBlog. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#fb">[FB]</a>
+            <a href="#tw">[TW]</a>
+            <a href="#ln">[LN]</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
